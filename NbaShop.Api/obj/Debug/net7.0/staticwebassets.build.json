@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Uy13FqMSC3u5yTT0hHhG63BeZsRSv/zM8L4e4+AGico=",
+  "Source": "NbaShop.Api",
+  "BasePath": "_content/NbaShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
