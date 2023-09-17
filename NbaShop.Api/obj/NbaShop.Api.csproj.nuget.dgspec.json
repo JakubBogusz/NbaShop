@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj": {}
+    "d:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj": {}
   },
   "projects": {
-    "D:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj": {
+    "d:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj",
+        "projectUniqueName": "d:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj",
         "projectName": "NbaShop.Api",
-        "projectPath": "D:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj",
+        "projectPath": "d:\\React .NET course\\NbaShop\\NbaShop.Api\\NbaShop.Api.csproj",
         "packagesPath": "C:\\Users\\E14\\.nuget\\packages\\",
-        "outputPath": "D:\\React .NET course\\NbaShop\\NbaShop.Api\\obj\\",
+        "outputPath": "d:\\React .NET course\\NbaShop\\NbaShop.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
