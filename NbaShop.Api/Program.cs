@@ -1,3 +1,4 @@
+using API.Middleware;
 using Microsoft.EntityFrameworkCore;
 using NbaShop.Api.Data;
 
@@ -25,6 +26,8 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseMiddleware<ExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
