@@ -1,7 +1,4 @@
-using API.Entities;
-using NbaShop.Api.Entities;
-
-namespace Api.Entities
+namespace NbaShop.Api.Entities
 {
     public class Basket
     {

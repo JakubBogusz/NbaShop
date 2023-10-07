@@ -1,8 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using Api.Entities;
-using NbaShop.Api.Entities;
 
-namespace API.Entities
+namespace NbaShop.Api.Entities
 {
     [Table("BasketItems")]
     public class BasketItem

@@ -1,6 +1,5 @@
-using Api.Entities;
-using Microsoft.EntityFrameworkCore;
 using NbaShop.Api.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace NbaShop.Api.Data
 {
