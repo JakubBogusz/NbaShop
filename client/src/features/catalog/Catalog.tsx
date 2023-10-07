@@ -8,8 +8,9 @@ export default function Catalog() {
     const [products, setProducts] = useState<Product[]>([]);
     const [loading, setLoading] = useState(true);
 
+    const placeholder: URLSearchParams = new URLSearchParams();
     useEffect(() => {
-       agent.Catalog.list()
+       agent.Catalog.list(placeholder)
        .then(products => setProducts(products))
        .catch(error => console.log(error))
        .finally(() => setLoading(false));
