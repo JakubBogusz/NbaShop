@@ -1,7 +1,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Middleware
+namespace NbaShop.Api.Middleware
 {
     public class ExceptionMiddleware
     {
